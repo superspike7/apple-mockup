@@ -21,6 +21,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -121,3 +122,32 @@ table {
   background-position: bottom;
 }
 
+.title {
+  width: 980px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.title h1 {
+  font-size: 3.8em;
+  font-weight: 100;
+  line-height: 36px;
+  padding-top: 20px;
+  margin: 20px;
+}
+
+.title h2 {
+  padding-top: 20px;
+  font-weight: 100;
+  font-size: 2em;
+  margin: 20px;
+}
+
+.title p{
+  font-weight: 100;
+  font-size: 1.5em;
+}
